@@ -1,444 +1,9 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-/* Sections
-   ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-  margin: 0;
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-
-main {
-  display: block;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/* Grouping content
-   ========================================================================== */
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-
-hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
-/* Text-level semantics
-   ========================================================================== */
-
-/**
- * Remove the gray background on active links in IE 10.
- */
-
-a {
-  background-color: transparent;
-}
-
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-
-abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-
-b,
-strong {
-  font-weight: bolder;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-code,
-kbd,
-samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-/* Embedded content
-   ========================================================================== */
-
-/**
- * Remove the border on images inside links in IE 10.
- */
-
-img {
-  border-style: none;
-}
-
-/* Forms
-   ========================================================================== */
-
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-
-button,
-input {
-  /* 1 */
-  overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-
-button,
-select {
-  /* 1 */
-  text-transform: none;
-}
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-/**
- * Correct the padding in Firefox.
- */
-
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-
-legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-
-progress {
-  vertical-align: baseline;
-}
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-
-textarea {
-  overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
-}
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
-}
-
-/* Interactive
-   ========================================================================== */
-
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-
-details {
-  display: block;
-}
-
-/*
- * Add the correct display in all browsers.
- */
-
-summary {
-  display: list-item;
-}
-
-/* Misc
-   ========================================================================== */
-
-/**
- * Add the correct display in IE 10+.
- */
-
-template {
-  display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-
-[hidden] {
-  display: none;
-}
-
-/* ==========================================================================
-   Reset
-   ========================================================================== */
-
-/**
- * Remove anchor tex-decoration
- */
-
-a {
-  text-decoration: none;
-}
-
-/**
- * Remove list-style
- */
-
-ol,
-ul {
-  list-style: none;
-}
-
-html,
-body,
-div,
-span,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-a,
-em,
-img,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-article,
-footer,
-header,
-nav,
-section,
-main {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-ul {
-  font-size: 1em;
-  font-weight: normal;
-}
-
-/* STYLES */
 :root {
-  --color-primary: linear-gradient(
-    90deg,
-    #dd902f 0%,
-    rgba(212, 162, 100, 0.645833) 30.6%,
-    #f6eb41 55.08%,
-    #e6ac47 97.92%
-  );
-
   --color-background: #000;
-  --color-gray: #2e2d2d;
-  --color-text: #898989;
-  --color-text-hellobar: #000;
-  --color-card: #dd902f;
-  --color-btn: #3d3d3d;
-  --color-white: #fff;
+  --color-text: #d7d7d7;
+  --color-h1: #d7d7d7;
+  --color-h2: #fff;
+  --color-grey: #5f5959;
 }
 
 body {
@@ -453,7 +18,7 @@ img {
 body,
 input,
 select {
-  font-family: "Archivo", sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #fff;
 }
 
@@ -462,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h3 {
@@ -473,447 +38,249 @@ p {
   font-size: 1.2em;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--color-background);
-}
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--color-gray);
-  border-radius: 30px;
-}
-
 .structure {
   display: grid;
   grid-template-areas:
-    "helloBar"
-    "header"
-    "headline"
-    "services"
-    "engineer"
-    "form"
-    "footer";
+    "introduction"
+    "cards"
+    "cards1";
 }
 
-.helloBar,
-.services,
-.engineer,
-.footer-social {
-  padding: 0px 10%;
+.introduction {
+  padding: 0px 8%;
 }
 
-/* HELLOBAR */
-.helloBar {
-  grid-area: helloBar;
-  background: var(--color-primary);
-}
-
-.whatsapp {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.whatsapp span {
-  color: var(--color-text-hellobar);
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-/* HEADER */
-.header {
-  grid-area: header;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
-}
-
-.btn {
-  background-color: var(--color-btn);
-  padding: 12px 0px;
-  border-radius: 10px;
-}
-
-.btn a {
-  font-size: 1.7em;
-  font-weight: bold;
-  background: var(--color-primary);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  max-width: 273px;
-  background-color: #fff;
-  padding: 12px 60px;
-}
-
-/* HEADLINE */
-.headline {
-  grid-area: headline;
-  background: url(/images/electric-background.png) no-repeat top;
+/* INTRODUCTION */
+.introduction {
+  grid-area: introduction;
+  background: url(../images/background.png) no-repeat center top;
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  height: 600px;
 }
 
-.headlineContent {
-  max-width: 550px;
-  padding: 30px 10% 60px 10%;
+.introduction-description {
+  margin-top: 40px;
+}
+
+.introduction-star {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 5px;
+  margin-left: 12px;
 }
 
-.headlineContent h1 {
-  line-height: 1.5em;
-  letter-spacing: 0.03em;
-  font-weight: bolder;
-}
-
-.headlineContent p {
-  font-size: 1.4em;
+.introduction-star p {
+  margin-left: 15px;
+  font-size: 1em;
   color: var(--color-text);
-  max-width: 350px;
-  line-height: 1.5em;
-  margin-bottom: 30px;
 }
 
-.btn-second {
-  background: var(--color-primary);
-  padding: 12px 0px;
-  border-radius: 10px;
-  max-width: 260px;
+.introduction-star span {
+  background: var(--color-grey);
+  padding: 1px 8px;
+  margin-left: 10px;
+  margin-right: 15px;
 }
 
-.btn-second a {
-  font-size: 1.7em;
-  font-weight: bold;
-  color: var(--color-background);
-  padding: 12px 58px;
-}
-
-/* SERVICES */
-.services {
-  grid-area: services;
-  padding-top: 80px;
-}
-
-.services H2 {
-  color: var(--color-white);
-  font-size: 2.5em;
+.introduction-description h1 {
+  font-size: 1.4em;
   font-weight: 400;
-  margin-bottom: 70px;
+  max-width: 470px;
+  line-height: 1.3em;
+  color: var(--color-h1);
+  margin-top: 20px;
+  margin-left: 12px;
 }
 
-.services .card {
-  width: 270px;
-  height: 360px;
-  border: 2px solid var(--color-card);
-  border-radius: 10px;
-  padding: 5px;
+.trophy {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width: 410px;
+  margin-top: 15px;
+  gap: 20px;
 }
 
-.services .card1 {
-  background: url(../images/building-electrical.png) no-repeat right;
-  background-size: cover;
+.trophy p {
+  color: var(--color-text);
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1.3em;
 }
 
-.services .card2 {
-  background: url(../images/residential-electrical.png) no-repeat center;
-  background-size: cover;
+/* CARDS */
+.cards {
+  grid-area: cards;
 }
 
-.services .card3 {
-  background: url(../images/industrial-electrical.png) no-repeat right;
-  background-size: cover;
-}
-
-.services .card4 {
-  background: url(../images/electrical-commential.png) no-repeat right;
-  background-size: cover;
-}
-
-.services .card p {
-  font-size: 2em;
-  color: var(--color-white);
-  text-align: center;
+.cards h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  padding: 0 8%;
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
-  overflow-x: auto;
-  padding-bottom: 20px;
-}
-
-/* ENGINNER */
-.engineer {
-  padding-top: 120px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.title {
-  grid-row: span 1;
-  margin-bottom: 80px;
-}
-
-.caption {
-  grid-column: 1;
-  background: var(--color-primary);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  max-width: 273px;
-  font-weight: bolder;
-  margin-bottom: 50px;
-}
-
-.text {
-  grid-column: 1;
-  max-width: 400px;
-  font-size: 1.4em;
-  color: var(--color-text);
-  line-height: 1.5em;
-}
-
-.image-enginner {
-  grid-column: 2;
-  grid-row: span 3;
-}
-
-/*  FORM */
-
-.form {
-  grid-area: form;
-  margin-top: 80px;
-}
-
-.form-card {
   display: flex;
-  flex-direction: column;
-  border: 1px solid;
-  border-color: var(--color-card);
-  border-radius: 5px;
-  max-width: 500px;
-  padding: 50px 50px 70px 70px;
-  margin: 0 auto;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.form h3 {
-  margin-bottom: 35px;
-  background: var(--color-primary);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  max-width: 273px;
-  font-weight: bolder;
+.card-container .card {
 }
 
-.form-contato {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  gap: 35px;
+.card-container .card:hover {
+  box-shadow: 0px 0px 5px 0px rgb(255, 255, 255);
+  border-radius: 8px;
 }
 
-.form-contato input {
-  background: none;
-  border: 1px solid;
-  border-color: var(--color-card);
-  border-radius: 5px;
-  padding: 15px 15px;
-}
-
-.btn-third {
-  background: var(--color-primary);
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 12px 0px;
-  border: none;
-  border-radius: 5px;
-  color: var(--color-background);
+.card {
   cursor: pointer;
 }
 
-/* FOOTER */
-.footer {
-  grid-area: footer;
-  background: var(--color-gray);
-  margin-top: 60px;
-  padding-bottom: 40px;
+.cards1 {
+  grid-area: cards1;
+  padding-bottom: 50px;
 }
 
-.footer-social {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 40px;
-}
-
-.social {
-  display: flex;
-}
-
-.social img {
-  height: 55px;
-}
-
-.social li + li {
-  margin-left: 20px;
-}
-
-.footer .copy {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 1em;
+.cards1 h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  padding: 0 8%;
 }
 
 @media (max-width: 1000px) {
-  .card-container {
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
+  .introduction {
+    grid-area: introduction;
+    background: url(../images/background.png) no-repeat left top;
+    background-size: cover;
+    height: 600px;
+  }
+  .introduction-description h1 {
+    font-size: 1.2em;
+    max-width: 380px;
+  }
+
+  .trophy {
+    display: flex;
+    max-width: 340px;
+    margin-top: 15px;
+    gap: 20px;
+  }
+
+  .trophy p {
+    color: var(--color-text);
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 1.1em;
   }
 }
 
-@media (max-width: 600px) {
-  /* HEADER*/
-  .header {
-    justify-content: center;
-    align-items: center;
-    padding: 12px 10%;
-  }
+/* tablet */
 
-  .header img {
-    width: 90px;
-  }
-
-  .btn {
-    padding: 12px 0px;
+@media (max-width: 790px) {
+  .card-7 {
     display: none;
   }
 
-  /* HEADLINE */
-  .headlineContent h1 {
-    line-height: 1.2em;
-    font-size: 2.8em;
+  .card-4 {
+    display: none;
+  }
+}
+
+/* Smartphone */
+@media (max-width: 600px) {
+  .introduction {
+    grid-area: introduction;
+    background: url(../images/background.png) no-repeat left top;
+    background-size: cover;
+    height: 450px;
   }
 
-  .headlineContent p {
-    font-size: 1.2em;
-    max-width: 300px;
-    line-height: 1.2em;
+  .introduction-description .logo {
+    height: 30px;
   }
 
-  .btn-second {
-    max-width: 230px;
+  .introduction-star {
+    margin-left: 4px;
   }
 
-  .btn-second a {
-    font-size: 1.5em;
-    padding: 12px 52px;
+  .introduction-star p {
+    margin-left: 5px;
+    font-size: 0.8em;
   }
 
-  /* SERVICES*/
-
-  .services {
-    grid-area: services;
-    padding-top: 50px;
+  .introduction-star span {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 0.8em;
   }
 
-  .services H2 {
-    color: var(--color-white);
-    font-size: 2em;
-    text-align: center;
+  .introduction-description h1 {
+    font-size: 1.1em;
     font-weight: 400;
-    margin-bottom: 70px;
+    max-width: 310px;
+    line-height: 1.1em;
+    color: var(--color-h1);
+    margin-top: 15px;
+    margin-left: 4px;
+  }
+
+  .trophy {
+    display: flex;
+    max-width: 300px;
+    margin-top: 15px;
+    gap: 5px;
+  }
+
+  .trophy p {
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 1.1em;
+  }
+
+  .trophy img {
+    width: 40px;
   }
 
   .card-container {
-    grid-template-columns: 1fr;
-    overflow-x: initial;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
   }
 
-  .services .card {
-    width: 100%;
+  .card-container .card {
   }
 
-  /* ENGINEER*/
-
-  .engineer {
-    padding-top: 50px;
-    grid-template-columns: 1fr;
+  .card-container .card:hover {
+    box-shadow: 0px 0px 5px 0px rgb(255, 255, 255);
+    border-radius: 8px;
   }
 
-  .title {
-    grid-row: span 1;
-    margin-bottom: 40px;
-    font-size: 2em;
+  .card {
+    cursor: pointer;
   }
 
-  .caption {
-    margin-bottom: 30px;
-    font-size: 1.9em;
+  .cards h2 {
+    font-size: 1.1em;
   }
 
-  .text {
-    grid-column: 1;
-    max-width: 400px;
-    font-size: 1.4em;
-    color: var(--color-text);
-    line-height: 1.2em;
-    margin-top: 30px;
+  .cards1 {
+    grid-area: cards1;
+    padding-bottom: 50px;
   }
 
-  .image-enginner {
-    grid-column: 1;
-    grid-row: span 1;
+  .cards1 h2 {
+    font-size: 1.1em;
   }
 
-  /* FORM*/
-
-  .form {
-    grid-area: form;
-    margin-top: 50px;
+  .card-1 {
+    display: none;
   }
 
-  .form-card {
-    border: none;
-    max-width: 400px;
-    padding: 20px 10%;
+  .card-7 {
+    display: none;
   }
 
-  .form h3 {
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 2em;
-  }
-
-  .form-contato {
-    gap: 15px;
-  }
-
-  /* FOOTER */
-
-  .footer {
-    padding-bottom: 40px;
-  }
-
-  .footer-social img {
-    height: 90px;
-  }
-
-  .social img {
-    height: 45px;
-  }
-
-  .social li + li {
-    margin-left: 10px;
+  .card-4 {
+    display: none;
   }
 }
